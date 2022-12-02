@@ -1,7 +1,12 @@
+import Method from "./Method";
+import Text from "./Text";
+import Square from "./Square";
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div align="center" className="App pt-28  ">
+      <Square />
+      <Text />
+      <Method />
     </div>
   );
 }
