@@ -4,11 +4,12 @@ import Square from "./Square";
 import { useState } from "react";
 function App() {
   const [text, setText] = useState("");
+  const [method, setMethod] = useState("");
   return (
     <div align="center" className="App pt-28  ">
-      <Square text={text} />
+      <Square text={text} method={method} />
       <Text text={text} setText={setText} />
-      <Method />
+      <Method method={method} setMethod={setMethod} />
     </div>
   );
 }
