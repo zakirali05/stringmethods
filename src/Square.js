@@ -1,7 +1,6 @@
 import React from "react";
 
-function Square() {
-  let text = "";
+function Square({ text }) {
   return (
     <div className=" border-[2px] borderblack displaybox h-[15rem] w-[25rem] mb-8 ">
       <p className=" relative top-[50%]">
